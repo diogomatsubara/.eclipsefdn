@@ -91,6 +91,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('roadmap') {
       allow_auto_merge: true,
@@ -102,6 +105,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh') {
       allow_auto_merge: true,
@@ -208,6 +214,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-c') {
       allow_auto_merge: true,
@@ -273,6 +282,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-demos') {
       allow_auto_merge: true,
@@ -284,6 +296,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-go') {
       allow_auto_merge: true,
@@ -303,6 +318,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-java') {
       allow_auto_merge: true,
@@ -488,6 +506,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       workflows+: {
         default_workflow_permissions: 'write',
       },
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-python') {
       allow_auto_merge: true,
@@ -566,6 +587,9 @@ orgs.newOrg('iot.zenoh', 'eclipse-zenoh') {
       delete_branch_on_merge: false,
       description: 'A repository for default files (community health files, issue templates, etc)',
       web_commit_signoff_required: false,
+      rulesets: [
+        customRuleset('main'),
+      ],
     },
     orgs.newRepo('zenoh-dissector') {
       allow_auto_merge: true,
